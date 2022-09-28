@@ -1,0 +1,17 @@
+program: train_nn_v2_mse_sweep_one_layer.py
+method: grid
+parameters:
+  dense_layer1:
+    values:
+      - 50
+      - 40
+      - 30
+      - 35
+      - 20
+  dropout:
+    values:
+      - 0.4
+      - 0.3
+      - 0.2
+      - 0.1
+      - 0.0

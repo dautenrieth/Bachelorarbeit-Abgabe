@@ -1,0 +1,19 @@
+program: train_nn_v3_softmax_sweep_one_layer_size_change.py
+method: grid
+parameters:
+  dense_layer1:
+    values:
+      - 35
+  train_size_div:
+    values:
+      - 350
+      - 400
+      - 450
+      - 500
+      - 600
+      - 700
+  epochs:
+    values:
+      - 5
+      - 10
+      - 15

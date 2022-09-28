@@ -1,0 +1,21 @@
+program: train_nn_v2_softmax_sweep_one_layer.py
+method: grid
+parameters:
+  learning_rate:
+    value: 0.001
+  dense_layer1:
+    values:
+      - 50
+      - 40
+      - 30
+      - 20
+      - 10
+      - 5
+  dropout:
+    values:
+      - 0.5
+      - 0.4
+      - 0.3
+      - 0.2
+      - 0.1
+      - 0
